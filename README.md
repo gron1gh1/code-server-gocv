@@ -6,16 +6,11 @@ Default SUDO_PASSWORD=1q2w3e4r!
 
 ## Run
 ```sh
-> sudo docker run -itd \
--p 80:8443 \
--v $PWD/data/code-server/config:/config \
---restart unless-stopped \
-gron1gh1/code-server-gocv
+> docker-compose up -d
 ```
 
 ## Input code-server Terminal
 ```sh
-> go get -u -d gocv.io/x/gocv
 > cd $GOPATH/src/gocv.io/x/gocv
 > go run ./cmd/version/main.go
 ```
