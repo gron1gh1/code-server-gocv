@@ -6,6 +6,7 @@ Default SUDO_PASSWORD=1q2w3e4r!
 
 ## Run
 ```sh
+> git clone --recurse-submodules https://github.com/gron1gh1/code-server-gocv.git
 > docker-compose up -d
 ```
 
