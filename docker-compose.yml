@@ -9,6 +9,7 @@ services:
       - $PWD/data/code-server/config:/config
     restart: unless-stopped
     ports:
-      - "80:8443"
+      - "80:80"
+      - "8443:8443"
       - "8080:8080"
       - "49152-65536:49152-65536"
